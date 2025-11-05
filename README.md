@@ -1,6 +1,6 @@
 # indexingo
 
-Golang client for the Indexing Co Neighborhood API.
+Golang client for the Indexing Co Neighborhood API. See https://docs.indexing.co.
 
 ### Examples
 
