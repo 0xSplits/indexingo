@@ -1,14 +1,3 @@
-# indexingo
-
-Golang client for the Indexing Co Neighborhood API. See https://docs.indexing.co.
-
-### Examples
-
-- [Filter Examples](./filters/examples/)
-- [Pipeline Examples](./pipelines/examples/)
-- [Transformation Examples](./transformations/examples/)
-
-```golang
 package main
 
 import (
@@ -17,6 +6,10 @@ import (
 	"github.com/0xSplits/indexingo/filters"
 	"github.com/xh3b4sd/tracer"
 )
+
+//
+//     go run filters/examples/listfilters/main.go
+//
 
 func main() {
 	var err error
@@ -38,4 +31,3 @@ func main() {
 		fmt.Printf("%#v\n", x.Name)
 	}
 }
-```
